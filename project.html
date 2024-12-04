@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Mustafa's Portfolio</title>
+    <link rel="icon" href="Image/engineer.ico" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="project.css" />
+    <link rel="stylesheet" href="dark-mode.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arizonia&family=Montserrat:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+    />
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-WZXPVQDR2Q"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-WZXPVQDR2Q");
+  </script>
+  <body class="container-fluid body_section">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand brand-name" href="#">Mustafa Mahmoud</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link headerachor" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link headerachor" href="education.html"
+                >Education</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link headerachor" href="skill.html">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link headerachor" href="project.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link headerachor" href="contact.html">Contact Me</a>
+            </li>
+            <li>
+              <iframe
+                id="toggle-iframe"
+                onload="onIframeLoad()"
+                src="toggle.html"
+              ></iframe>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section id="Projects" class="Section1">
+      <div class="row">
+        <div class="col-lg-6 col-md-6">
+          <img class="projectimage" src="Image/Project.svg" alt="" />
+        </div>
+        <div class="col-lg-6 col-md-6 project-heading">
+          <h1 class="P-heading">Projects</h1>
+          <p class="p-text">
+            My project utilizes various technologies to enhance model accuracy and stability, including Data Engineering, Power BI, DAX, and AI models like Computer Vision and NLP, and I plan to work on more projects in the near future.
+          </p>
+        </div>
+      </div>
+      <div class="row Section1">
+        <div class="col-sm-6">
+          <a
+            class="Project-box"
+            target="_blank"
+            href="https://github.com/mustafaamahmoudm74/GRADUATION_PROJECT"
+          >
+            <div class="card boxx">
+              <div class="card-body">
+                <h5 class="card-title">Recommendation System, Graduation Project</h5>
+                <p class="card-text project-text">
+                  Developed a system using Logistic Regression to help students choose majors and track academic performance. Created a
+Flutter mobile app for a user-friendly interface.
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-sm-6">
+          <a
+            class="Project-box"
+            target="_blank"
+            href="https://github.com/mustafaamahmoudm74/Audi_Dashboard"
+          >
+            <div class="card boxx">
+              <div class="card-body">
+                <h5 class="card-title">Audi Car Models Dashboard</h5>
+                <p class="card-text project-text">
+                  Created an interactive Power BI dashboard to analyze car data by price, mileage, year, and more, featuring dark/light mode
+and dynamic filters. Showcases data visualization skills and insight generation.
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+<div class="row Section1">
+        <div class="col-sm-6">
+          <a
+            class="Project-box"
+            target="_blank"
+            href="https://github.com/mustafaamahmoudm74/-Text_Similarity/tree/main"
+          >
+            <div class="card boxx">
+              <div class="card-body">
+                <h5 class="card-title">Text Similarity and Topic Classification Using NLP, Freelancing</h5>
+                <p class="card-text project-text">
+                  The project featured two AI components: classifying documents by topic and comparing sentences across files. 
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+
+<div class="col-sm-6">
+          <a
+            class="Project-box"
+            target="_blank"
+            href="https://github.com/mustafaamahmoudm74/Mask_Detection"
+          >
+            <div class="card boxx">
+              <div class="card-body">
+                <h5 class="card-title">Mask Detection</h5>
+                <p class="card-text project-text">
+                  Created a CNN model with TensorFlow and Keras to detect mask-wearing in images. Trained and tested on datasets of masked and unmasked individuals.
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+   <div class="row Section1">
+        <div class="col-sm-6">
+          <a
+            class="Project-box"
+            target="_blank"
+            href="https://github.com/mustafaamahmoudm74/Remove_Background"
+          >
+            <div class="card boxx">
+              <div class="card-body">
+                <h5 class="card-title">Remove Background</h5>
+                <p class="card-text project-text">
+                  Developed a GUI application using Tkinter that allows users to easily add and remove backgrounds from images. The application enables users to process and save the modified images, providing an intuitive interface for image editing tasks.
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+<div class="col-sm-6">
+          <a
+            class="Project-box"
+            target="_blank"
+            href="https://github.com/mustafaamahmoudm74/AudiDataSet_Big_Data_/tree/main"
+          >
+            <div class="card boxx">
+              <div class="card-body">
+                <h5 class="card-title">Audi Dataset (Big Data)</h5>
+                <p class="card-text project-text">
+                  The Scrolling Image Processor App, developed with Tkinter, OpenCV, PIL (Pillow), and NumPy, offers a user-friendly interface for various image manipulations, including resizing, color conversion, morphology operations, and contrast adjustments.
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+    </section>
+
+    <footer class="footer">Made by Mustafa Mahnoud</footer>
+    <script src="dark-mode.js"></script>
+  </body>
+</html>
