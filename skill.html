@@ -106,53 +106,93 @@
       </nav>
     </header>
     <section class="Section1">
-      <div class="row">
-        <div class="col-lg-6 col-md-6">
-          <img class="skill-img" src="Image/Skills.svg" alt="" />
-        </div>
-        <div class="col-lg-6 col-md-6">
-          <div id="SkillBox">
-            <center class="Skill-heading">Proficiency</center>
+      
+<section class="skills-section">
+  <div class="skills-card">
+    <h3>Languages</h3>
+    <div class="skill"><span>Python</span><span>95%</span><div class="bar"><div style="width: 95%"></div></div></div>
+    <div class="skill"><span>SQL</span><span>90%</span><div class="bar"><div style="width: 90%"></div></div></div>
+    <div class="skill"><span>C++</span><span>85%</span><div class="bar"><div style="width: 85%"></div></div></div>
+    <div class="skill"><span>XML</span><span>80%</span><div class="bar"><div style="width: 80%"></div></div></div>
+  </div>
 
+<div class="skills-card">
+    <h3>Machine Learning</h3>
+    <div class="skill"><span>TensorFlow</span><span>95%</span><div class="bar"><div style="width: 95%"></div></div></div>
+<div class="skill"><span>Pandas</span><span>95%</span><div class="bar"><div style="width: 95%"></div></div></div>
+<div class="skill"><span>Scikit-learn</span><span>90%</span><div class="bar"><div style="width: 90%"></div></div></div>
+    <div class="skill"><span>NumPy</span><span>90%</span><div class="bar"><div style="width: 90%"></div></div></div>
+<div class="skill"><span>NLTK</span><span>85%</span><div class="bar"><div style="width: 85%"></div></div></div>
+    <div class="skill"><span>PyTorch</span><span>85%</span><div class="bar"><div style="width: 85%"></div></div></div>
+  </div>
 
-            <div class="SkillBar">
-              <div id="Skill-Python">
-                <span
-                  class="Skill-Area iconify"
-                  data-icon="logos:python"
-                  data-inline="false"
-                  data-width="35"
-                  data-height="35"
-                ></span>
-              </div>
-            </div>
+  <div class="skills-card">
+    <h3>Data Analysis</h3>
+    <div class="skill"><span>Power BI</span><span>95%</span><div class="bar"><div style="width: 95%"></div></div></div>
+<div class="skill"><span>DAX</span><span>85%</span><div class="bar"><div style="width: 85%"></div></div></div>
+<div class="skill"><span>SSIS</span><span>85%</span><div class="bar"><div style="width: 85%"></div></div></div>
+    <div class="skill"><span>Excel</span><span>80%</span><div class="bar"><div style="width: 80%"></div></div></div>
+  </div>
 
-            <div class="SkillBar">
-              <div id="Skill-Cplus">
-                <span
-                  class="Skill-Area iconify"
-                  data-icon="logos:c-plusplus"
-                  data-inline="false"
-                  data-width="35"
-                  data-height="35"
-                ></span>
-              </div>
-            </div>
+  <div class="skills-card">
+    <h3>Tools & Deployment</h3>
+    <div class="skill"><span>Flask</span><span>90%</span><div class="bar"><div style="width: 90%"></div></div></div>
+    <div class="skill"><span>REST APIs</span><span>90%</span><div class="bar"><div style="width: 90%"></div></div></div>
+    <div class="skill"><span>PostgreSQL</span><span>85%</span><div class="bar"><div style="width: 85%"></div></div></div>
+    <div class="skill"><span>SQL Server</span><span>90%</span><div class="bar"><div style="width: 90%"></div></div></div>
+  </div>
+</section>
 
+<style>
+.skills-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  background: #FFFFFF;
+  padding: 40px;
+  font-family: 'Montserrat', sans-serif;
+}
 
-            <div class="SkillBar">
-              <div id="Skill-SQL">
-                <span
-                  class="Skill-Area iconify"
-                  data-icon="dashicons:database"
-                  data-inline="false"
-                  style="color: black"
-                  data-width="35"
-                  data-height="35"
-                ></span>
-              </div>
-            </div>
+.skills-card {
+  background: #C5C2FF;
+  border-radius: 16px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
 
+.skills-card h3 {
+  font-weight: bold;
+  margin-bottom: 20px;
+   font-size: 22px;
+}
+
+.skill {
+  margin-bottom: 1px;
+}
+
+.skill span {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.bar {
+  background: #FFFFFF;
+  height: 6px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.bar div {
+  height: 100%;
+  background: #6C63FF;
+  transition: width 0.5s ease-in-out;
+}
+</style>
           </div>
         </div>
       </div>
