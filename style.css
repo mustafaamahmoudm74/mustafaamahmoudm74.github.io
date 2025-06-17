@@ -85,7 +85,7 @@ span.wave {
 .first-image {
   position: absolute;
   top: 200px;
-  right: 140px;
+  right: 10px;
   z-index: 10;
   height: 100%;
   display: flex;
