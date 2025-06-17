@@ -84,11 +84,20 @@ span.wave {
 
 .first-image {
   position: absolute;
-  right: 0;
+  top: 200px;
+  right: 140px;
+  z-index: 10;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
+
+
 .boyimage {
   height: 400px;
+  margin-right: 0;
 }
+
 
 @media only screen and (max-width: 1183px) {
   .first-image {
